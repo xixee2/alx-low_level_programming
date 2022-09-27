@@ -1,21 +1,25 @@
 #include "main.h"
+
 /**
- * _strchr - function
- * @s : pointer to check if the value is inside
- * @c : the value to check
- * Return: memory.
+ * _strchr - locates character in a string
+ * @s: string
+ * @c: char
+ * Return: a pointer to the first occurence of the character
  */
 char *_strchr(char *s, char c)
 {
-	int i;
+	int w;
 
-	for (i = 0; s[i] >= '\0'; i++)
+	while (1)
 	{
-		if (s[i] == c)
+		w = *s++;
+		if (w == c)
 		{
-			if (s[i] == c)
+			return (s - 1);
 		}
-		return (s + i);
+		if (w == 0)
+		{
+			return (NULL);
+		}
 	}
-	return ('\0');
 }

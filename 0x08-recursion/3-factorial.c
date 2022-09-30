@@ -4,7 +4,7 @@
 /**
  * factorial - check the code for Holberton School students.
  * @n : parameter
- * Return: length of s
+ * Return: lenfth of s
  */
 
 int factorial(int n)
@@ -12,6 +12,10 @@ int factorial(int n)
 	if (n == 0)
 	{
 		return (1);
+	}
+	else if (n < 0)
+	{
+		return (-1);
 	}
 	else
 	{

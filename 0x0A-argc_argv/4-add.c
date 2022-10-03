@@ -18,10 +18,10 @@ int main(int argc, char const *argv[])
 			{
 				printf("Error\n");
 				return (-1);
-			}
-	
-		sum += atoi(argv[i]);
-	}
-	printf("%d\n", sum);
-	return (0);
+			        }
+		                }
+	                        sum += atoi(argv[i]);
+	    }
+            printf("%d\n", sum);
+            return (0);
 }

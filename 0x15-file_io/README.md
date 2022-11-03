@@ -1,4 +1,1 @@
-Look for the right source of information online
-How to create, open, close, read and write files
-What are file descriptors
-What are the 3 standard file descriptors, what are their purpose and what are their POSIX names
+0x15-file_io
